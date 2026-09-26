@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Drop shadow -->
+    <path
+        android:pathData="M54,28 L76,46 L68,76 L40,76 L32,46 Z"
+        android:fillColor="#33000000" />
+    <!-- Outer interconnected orbital hexagon -->
+    <path
+        android:pathData="M54,29 L75,41 L75,67 L54,79 L33,67 L33,41 Z"
+        android:strokeColor="#60A5FA"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000" />
+    <!-- Core diamond prism -->
+    <path
+        android:pathData="M54,35 L70,54 L54,73 L38,54 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="38"
+                android:startY="35"
+                android:endX="70"
+                android:endY="73"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="0.5" android:color="#6366F1" />
+                <item android:offset="1.0" android:color="#A855F7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Inner faceted core -->
+    <path
+        android:pathData="M54,42 L64,54 L54,66 L44,54 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.85" />
+    <!-- Center energy spark -->
+    <path
+        android:pathData="M54,48 L56,53 L61,54 L56,55 L54,60 L52,55 L47,54 L52,53 Z"
+        android:fillColor="#38BDF8" />
+    <!-- 4 Connection nodes representing the 4 pillars (Vision, Goals, Tasks, Habits) -->
+    <path
+        android:pathData="M54,25 A4,4 0 1,0 54,33 A4,4 0 1,0 54,25"
+        android:fillColor="#38BDF8" />
+    <path
+        android:pathData="M77,54 A4,4 0 1,0 77,62 A4,4 0 1,0 77,54"
+        android:fillColor="#818CF8" />
+    <path
+        android:pathData="M54,75 A4,4 0 1,0 54,83 A4,4 0 1,0 54,75"
+        android:fillColor="#C084FC" />
+    <path
+        android:pathData="M31,54 A4,4 0 1,0 31,62 A4,4 0 1,0 31,54"
+        android:fillColor="#F472B6" />
+</vector>

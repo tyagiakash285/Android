@@ -1,0 +1,6 @@
+{
+  "name": "LifeOS",
+  "description": "All-in-one personal operating system combining goals, projects, smart tasks, habits, routines, focus sessions, journaling, analytics, and an AI personal coach.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
